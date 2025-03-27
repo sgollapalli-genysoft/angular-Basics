@@ -1,0 +1,21 @@
+
+.main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+
+}
+.container{
+ border: 2px solid black;
+ margin: 10px;
+ justify-items: center;
+}
+
+.container:hover{
+    background-color: gray;
+    opacity: 0.5;
+}
+.container:hover{
+    color: white;
+    opacity: 1;
+}
